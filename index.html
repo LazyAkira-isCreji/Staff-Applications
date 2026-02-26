@@ -657,7 +657,7 @@
             </form>
 
             <div class="success-message" id="successMessage">
-                <h3>⚔️ Application Submitted! ⚔️</h3>
+                <h3> Application Submitted! </h3>
                 <p>Thank you for applying! We'll review your application and get back to you soon.</p>
             </div>
         </div>
@@ -704,24 +704,24 @@
             const webhookURL = 'https://discord.com/api/webhooks/1476522380812619906/TU7ofGdbn7E7oL2BHuWbaurb1AykP4WX9rTx5cOSab-WHhj0qKHj5cLOJm-DVLoUhKBI';
             
             const embed = {
-                title: "⚔️ New Staff Application ⚔️",
+                title: "New Staff Application ",
                 color: 0xFFD700,
                 fields: [
-                    { name: "📱 Discord Username", value: data.discordUsername || "N/A", inline: true },
-                    { name: "👤 Discord Display", value: data.discordDisplay || "N/A", inline: true },
-                    { name: "🎮 Roblox Username", value: data.robloxUsername || "N/A", inline: true },
-                    { name: "🎮 Roblox Display", value: data.robloxDisplay || "N/A", inline: true },
-                    { name: "🌍 Country", value: data.country || "N/A", inline: true },
-                    { name: "🕐 Timezone", value: data.timezone || "N/A", inline: true },
-                    { name: "📅 Age", value: data.age || "N/A", inline: true },
-                    { name: "👥 Gender", value: data.gender || "N/A", inline: true },
-                    { name: "⏰ Time in Server", value: data.serverTime || "N/A", inline: true },
-                    { name: "💼 Staff Experience", value: data.staffBefore ? "Yes" : "No", inline: true },
-                    { name: "👑 Server Owner", value: data.serverOwner === "yes" ? "Yes" : "No", inline: true },
-                    { name: "📝 Why Staff?", value: data.whyStaff || "N/A" },
-                    { name: "🧑 About Yourself", value: data.aboutYou || "N/A" },
-                    { name: "💪 Contribution", value: data.contribution || "N/A" },
-                    { name: "🤝 Owner Connections", value: data.ownerKnowledge || "N/A" }
+                    { name: " Discord Username", value: data.discordUsername || "N/A", inline: true },
+                    { name: " Discord Display", value: data.discordDisplay || "N/A", inline: true },
+                    { name: " Roblox Username", value: data.robloxUsername || "N/A", inline: true },
+                    { name: " Roblox Display", value: data.robloxDisplay || "N/A", inline: true },
+                    { name: " Country", value: data.country || "N/A", inline: true },
+                    { name: " Timezone", value: data.timezone || "N/A", inline: true },
+                    { name: " Age", value: data.age || "N/A", inline: true },
+                    { name: " Gender", value: data.gender || "N/A", inline: true },
+                    { name: " Time in Server", value: data.serverTime || "N/A", inline: true },
+                    { name: " Staff Experience", value: data.staffBefore ? "Yes" : "No", inline: true },
+                    { name: " another Server Owner", value: data.serverOwner === "yes" ? "Yes" : "No", inline: true },
+                    { name: " Why the user wants to be Staff?", value: data.whyStaff || "N/A" },
+                    { name: " About Yourself", value: data.aboutYou || "N/A" },
+                    { name: " Contribution", value: data.contribution || "N/A" },
+                    { name: " Owner Connections", value: data.ownerKnowledge || "N/A" }
                 ],
                 timestamp: new Date().toISOString(),
                 footer: {
